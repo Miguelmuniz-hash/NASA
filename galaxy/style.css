@@ -1,5 +1,14 @@
 
-
+#galaxymaior{
+      position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; 
+    z-index: 1;   
+    
+    
+}
 
 .barra-NAVBAR { 
   background-color: white; 
@@ -11,11 +20,13 @@
   align-items: center;
 
 
-position: absolute; 
-  top: 0;
-  left: 0;
-  z-index: 10; 
-  
+position: fixed; 
+top: 0;
+left: 0;
+z-index: 10; 
+
+
+  border: 2px solid #e0e0e0;
 }
 
 .barra-NAVBAR img{
@@ -55,6 +66,8 @@ position: absolute;
 
      
   margin-left: -8px;  
+
+
 }
 
 .centralizar{
@@ -88,7 +101,6 @@ position: absolute;
 
 
 /*outro*/
-
 .austronauto{
     position: relative;
     display: flex;
@@ -132,4 +144,182 @@ position: absolute;
    margin-top: 360px;
    display: flex;
    align-items: center;
+}
+
+.imagens-austronautas{
+  display: flex;
+  gap: 10px;
+ margin-left: 50px;
+  margin-top: 370px;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+#destibofinal{
+  position: relative;
+  margin-top: 100vh; 
+  background-color: #ffffff; 
+  z-index: 10; 
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 8vh;
+
+    
+    display: flex;
+    align-items: center;
+}
+
+.footer p{
+  margin: 0px;
+  margin-left: 20px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.bodyfooter{
+  margin: 0 ;
+  box-sizing: border-box;
+  height: 100%;
+    overflow-x: hidden; 
+   
+}
+
+/*sobre*/
+
+.galaxysobre img{
+   
+display: flex; 
+align-items: center;
+
+box-sizing: border-box;
+border-radius: 50px;
+margin-top: -380px;
+ width: 100% ;       
+padding: 20px 20px;
+height: 500px 
+}
+
+.sobre-pagina{
+    margin: 0;
+    overflow-x: hidden; 
+    
+}
+
+.centralizarsobre{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+
+  
+  height: 70vh;           
+}
+
+
+
+.centralizarsobre h1{
+ position: relative; 
+    z-index: 1;
+
+
+   color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+margin-top: 250px;
+}
+
+.textogalaxysobre{
+  position: relative; 
+    z-index: 1;
+
+    color: white;
+    font-family: sans-serif;
+    max-width: 600px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+    margin: 5;
+}
+
+.sobrteoteslocio{
+  max-width: 500px;
+
+}
+
+.tudodotelescoip{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.imagemdotelescopio img{
+  border-radius: 20px;
+  width: 600px;
+}
+
+/*perfil*/
+
+.perfil{
+       background: linear-gradient(135deg, #441c60 0%, #210c35 100%);
+
+
+  border-radius: 10px;
+   padding: 30px;          
+  box-sizing: border-box;
+width: 60%;
+height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: 40px;
+
+  gap: 100px;
+  
+}
+
+.perfil img{
+ width: 350px;
+ border-radius: 25px;
+ display: flex;
+ 
+  
+}
+
+.perfilanotação h1{
+ 
+ text-align: center;
+}
+
+.perfilanotação{
+  font-size: 25px;
+  color: white;
+}
+
+.linkedin{
+   color: #00e5ff;
+}
+
+.linkedinbranco{
+  color: white;
 }
